@@ -18,6 +18,12 @@ cl(myDog.color);
 // We assign a new property to myDog
 myDog.bark = "Jau Jau";
 
-cl(myDog.bark);
+cl(myDog.bark); // Jau Jau
 
 // Delete Properties from a JavaScript Object
+
+// Let's delete the 'tails' property from myDog
+
+delete myDog.tails;
+
+cl(myDog); //{ name: 'Yuni', age: 7, color: 'black and white', bark: 'Jau Jau' } -> no 'tails

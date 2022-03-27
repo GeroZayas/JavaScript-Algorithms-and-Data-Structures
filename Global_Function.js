@@ -1,12 +1,8 @@
-// Declare the myGlobal variable below this line
 let myGlobal = 10;
 
 function fun1() {
-  // Assign 5 to oopsGlobal Here
   oopsGlobal = 5;
 }
-
-// Only change code above this line
 
 function fun2() {
   var output = "";
@@ -20,3 +16,23 @@ function fun2() {
 }
 
 fun2();
+
+const loc = "foo";
+function myTest() {
+  console.log(loc);
+}
+
+myTest();
+console.log(loc);
+
+const someVar = "Hat";
+
+function myFun() {
+  const someVar = "Head";
+  console.log(someVar); // Head
+  return someVar;
+}
+
+myFun();
+
+console.log(someVar); // hat

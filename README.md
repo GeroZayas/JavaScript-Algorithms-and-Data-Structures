@@ -1,3 +1,3 @@
-FreeCodeCamp.org course
-
 # JavaScript-Algorithms-and-Data-Structures
+
+## FreeCodeCamp.org course

@@ -27,3 +27,25 @@ cl(myDog.bark); // Jau Jau
 delete myDog.tails;
 
 cl(myDog); //{ name: 'Yuni', age: 7, color: 'black and white', bark: 'Jau Jau' } -> no 'tails
+
+function phoneticLookup(val) {
+  let result = "";
+
+  const lookup = {
+    alpha: "Adams",
+    bravo: "Boston",
+    charlie: "Chicago",
+    delta: "Denver",
+    echo: "Easy",
+    foxtrot: "Frank",
+  };
+  result = lookup[val];
+  return result;
+}
+
+function cl(x) {
+  return console.log(x);
+}
+
+cl(phoneticLookup("alpha")); // Adams
+cl(phoneticLookup("bravo")); // Boston

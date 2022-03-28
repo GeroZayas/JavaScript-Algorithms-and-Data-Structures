@@ -27,12 +27,13 @@ const contacts = [
 ];
 
 function lookUpProfile(name, prop) {
-  let names = [];
-  for (let i = 0; i < contacts.length; i++) {
-    names.push(contacts[i].firstName);
-  }
-  if (name in names) {
-    console.log(name);
+  for (let contact = 0; contact < contacts.length; contact++) {
+    if (
+      name == contacts[contact].firstName &&
+      contacts[contact][prop] != undefined
+    ) {
+      return contacts[contact][prop];
+    }
   }
 }
 

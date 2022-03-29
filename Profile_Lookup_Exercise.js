@@ -27,18 +27,20 @@ const contacts = [
 ];
 
 function lookUpProfile(name, prop) {
-  for (let contact = 0; contact < contacts.length; contact++) {
-    if (
-      name == contacts[contact].firstName &&
-      contacts[contact][prop] != undefined
-    ) {
-      return contacts[contact][prop];
+  for (var i = 0; i < contacts.length; i++) {
+    if (contacts[i].firstName === name) {
+      // NOTICE we use '||' (or) to say that if the vaue doesn't exist
+      // print "No such property"
+      return contacts[i][prop] || "No such property";
     }
   }
+  return "No such contact";
 }
 
 console.log(lookUpProfile("Akira", "likes"));
-// console.log(lookUpProfile("Kristian", "lastName"));
-// console.log(lookUpProfile("Sherlock", "likes"));
-// console.log(lookUpProfile("Harry", "likes"));
-// console.log(lookUpProfile("Bob", "number"));
+console.log(lookUpProfile("Kristian", "lastName"));
+console.log(lookUpProfile("Sherlock", "likes"));
+console.log(lookUpProfile("Harry", "likes"));
+console.log(lookUpProfile("Bob", "number")); // No such contact
+console.log(lookUpProfile("Bob", "potato")); // No such contact
+console.log(lookUpProfile("Akira", "address")); // No such property

@@ -35,3 +35,29 @@ This code will still return the string value by default.
 // };
 
 const magic = () => new Date();
+
+// console log separator line
+console.log("-------------------------------------------------- 01");
+
+// Arrow functions with parameters
+
+// Just like a regular function, you can pass arguments into an arrow function.
+const doubler = (item) => item * 2;
+console.log("This is doubler");
+console.log(doubler(4)); // 8
+
+// separator line
+console.log("-------------------------------------------------- 02");
+
+// If an arrow function has a single parameter, the parentheses enclosing the parameter may be omitted.
+const doubler2 = (item) => item * 2;
+console.log("This is doubler2");
+console.log(doubler2(8)); // 16
+
+// It is possible to pass more than one argument into an arrow function.
+
+const multiplier = (item, multi) => item * multi;
+console.log("\nThis is multiplier");
+console.log(multiplier(4, 2)); // 8
+
+console.log("-------------------------------------------------- 03");

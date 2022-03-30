@@ -1,6 +1,7 @@
 //Use Arrow Functions to Write Concise Anonymous Functions
 
-/*In JavaScript, we often don't need to name our functions, especially when passing a function as an argument to another function. Instead, we create inline functions. We don't need to name these functions because we do not reuse them anywhere else.
+/*In JavaScript, we often don't need to name our functions, especially when passing a function as an argument to another function. 
+Instead, we create inline functions. We don't need to name these functions because we do not reuse them anywhere else.
 
 To achieve this, we often use the following syntax:
 
@@ -28,7 +29,8 @@ This code will still return the string value by default.
 
 // Exercise
 
-/* Rewrite the function assigned to the variable magic which returns a new Date() to use arrow function syntax. Also, make sure nothing is defined using the keyword var.*/
+/* Rewrite the function assigned to the variable magic which returns a new Date() to use arrow function syntax.
+ Also, make sure nothing is defined using the keyword var.*/
 
 // var magic = function () {
 //   return new Date();
@@ -61,3 +63,19 @@ console.log("\nThis is multiplier");
 console.log(multiplier(4, 2)); // 8
 
 console.log("-------------------------------------------------- 03");
+
+// Exercise
+
+/*Rewrite the myConcat function which appends contents of arr2 to arr1 so that the function uses arrow function syntax. */
+
+/*
+
+var myConcat = function (arr1, arr2) {
+  return arr1.concat(arr2);
+};
+
+*/
+
+const myConcat = (arr1, arr2) => arr1.concat(arr2);
+
+console.log(myConcat([1, 2], [3, 4, 5]));

@@ -72,3 +72,17 @@ console.log(today); // 77
 console.log(tomorrow); // 80
 
 console.log(HIGH_TEMPERATURES); // {yesterday: 75, today: 77, tomorrow: 80}
+
+// print separator line
+console.log("-------------------------------------------------- 4");
+
+// Use Destructuring Assignment to Assign Variables from Objects
+
+/*Destructuring allows you to assign a new variable name when extracting values. You can do this by putting the new name after a colon when assigning the value.*/
+
+/*Using the same object from the last example:
+
+const user = { name: 'John Doe', age: 34 };
+Here's how you can give new variable names in the assignment:
+
+const { name: userName, age: userAge } = user;*/

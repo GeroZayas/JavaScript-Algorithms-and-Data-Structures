@@ -43,3 +43,32 @@ console.log(arr2);
 
 // print separator line
 console.log("-------------------------------------------------- 3");
+
+// Use Destructuring Assignment to Extract Values from Objects
+
+/*Destructuring assignment is special syntax introduced in ES6, for neatly assigning values taken directly from an object.*/
+
+//example
+const user = { name: "John Doe", age: 34 };
+
+const theName = user.name;
+const theAge = user.age;
+
+// With destructuring assignment
+const { name, age } = user;
+
+// Exercise
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80,
+};
+
+// Only change code below this line
+
+const { today, tomorrow } = HIGH_TEMPERATURES;
+
+console.log(today); // 77
+console.log(tomorrow); // 80
+
+console.log(HIGH_TEMPERATURES); // {yesterday: 75, today: 77, tomorrow: 80}

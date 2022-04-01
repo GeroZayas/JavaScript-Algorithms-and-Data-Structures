@@ -88,9 +88,25 @@ Here's how you can give new variable names in the assignment:
 const { name: userName, age: userAge } = user;*/
 
 // Use Destructuring Assignment to Assign Variables from Arrays
+
+/* ES6 makes destructuring arrays as easy as destructuring objects.
+
+One key difference between the spread operator and array destructuring is that the spread operator unpacks all contents of an array into a comma-separated list. Consequently, you cannot pick or choose which elements you want to assign to variables.
+
+Destructuring an array lets us do exactly that:*/
+
 const [a, b] = [1, 2, 3, 4, 5, 6];
 console.log(a, b); // 1 2
 
 // We can also access the value at any index in an array with destructuring by using commas to reach the desired index:
 const [x, y, , , z] = [1, 2, 3, 4, 5, 6];
 console.log(x, y, z); // 1 2 5
+
+let varA = 8,
+  varB = 6;
+
+// Swap the values of varA and varB with destructuring
+[varA, varB] = [varB, varA];
+console.log(varA, varB); // 6 8
+
+console.log("-------------------------------------------------- 5");

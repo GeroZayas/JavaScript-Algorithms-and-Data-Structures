@@ -86,3 +86,7 @@ const user = { name: 'John Doe', age: 34 };
 Here's how you can give new variable names in the assignment:
 
 const { name: userName, age: userAge } = user;*/
+
+// Use Destructuring Assignment to Assign Variables from Arrays
+const [a, b] = [1, 2, 3, 4, 5, 6];
+console.log(a, b); // 1 2

@@ -24,3 +24,10 @@ function removeFirstTwo(list) {
 }
 const arr = removeFirstTwo(source);
 console.log(arr);
+
+// print separator line with number
+console.log("------------------------------------------------ 1");
+
+/*Use Destructuring Assignment to Pass an Object as a Function's Parameters*/
+const profileUpdate = ({ name, age, nationality, location }) => {};
+/*When profileData is passed to the above function, the values are destructured from the function parameter for use within the function.*/

@@ -90,3 +90,7 @@ const { name: userName, age: userAge } = user;*/
 // Use Destructuring Assignment to Assign Variables from Arrays
 const [a, b] = [1, 2, 3, 4, 5, 6];
 console.log(a, b); // 1 2
+
+// We can also access the value at any index in an array with destructuring by using commas to reach the desired index:
+const [x, y, , , z] = [1, 2, 3, 4, 5, 6];
+console.log(x, y, z); // 1 2 5

@@ -12,3 +12,11 @@ console.log(getMousePosition(1, 2)); // {x: 1, y: 2}
 const getTheMousePosition = (x, y) => ({ x, y });
 
 console.log(getMousePosition(1, 2)); // {x: 1, y: 2}
+
+console.log("----- ----- Exercise ----- -----");
+// Exercise
+
+const createPerson = (name, age, gender) => ({ name, age, gender });
+// Only change code above this line
+
+console.log(createPerson("Gero", 30, "Male"));

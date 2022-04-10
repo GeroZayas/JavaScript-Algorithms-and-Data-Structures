@@ -7,3 +7,19 @@ myPromise.then(result => {
 });
 
 result comes from the argument given to the resolve method.*/
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer is set to true to represent a successful response from a server
+  let responseFromServer = true;
+
+  if (responseFromServer) {
+    resolve("We got the data");
+  } else {
+    reject("Data not received");
+  }
+});
+
+// Usage of the Promise object with "then" method
+makeServerRequest.then((result) => {
+  console.log(result);
+});

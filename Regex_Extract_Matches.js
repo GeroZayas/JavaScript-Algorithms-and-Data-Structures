@@ -36,7 +36,7 @@ And here match returns the value ["Repeat", "Repeat", "Repeat"]
 // Exercise
 
 let twinkleStar = "Twinkle, twinkle, little star";
-let starRegex = /change/; // Change this line
-let result2 = twinkleStar; // Change this line
+let starRegex = /twinkle/gi; // notice the g for multiple extracts and i for case
+let result2 = twinkleStar.match(starRegex);
 
 console.log(result2);

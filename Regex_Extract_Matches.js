@@ -56,3 +56,7 @@ console.log(result3); // true
 /*
 You can search for a literal pattern with some flexibility with character classes. Character classes allow you to define a group of characters you wish to match by placing them inside square ([ and ]) brackets.
 */
+
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/gi; // this matches all the letters
+let result4 = quoteSample.match(alphabetRegex);

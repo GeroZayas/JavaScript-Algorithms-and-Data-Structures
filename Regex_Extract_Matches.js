@@ -46,3 +46,13 @@ console.log(result2);
 /*
 The wildcard character . will match any one character. The wildcard is also called dot and period. You can use the wildcard character just like any other character in the regex. For example, if you wanted to match hug, huh, hut, and hum, you can use the regex /hu./ to match all four words.
 */
+
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /.un/; // notice the .
+let result3 = unRegex.test(exampleStr);
+
+console.log(result3); // true
+
+/*
+You can search for a literal pattern with some flexibility with character classes. Character classes allow you to define a group of characters you wish to match by placing them inside square ([ and ]) brackets.
+*/

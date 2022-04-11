@@ -28,7 +28,16 @@ You can also search for more than just two patterns. You can do this by adding m
 /* Complete the regex petRegex to match the pets dog, cat, bird, or fish. */
 
 let petString = "James has a pet cat.";
-let petRegex = /dog|cat|bird|fish/; // Change this line
+let petRegex = /dog|cat|bird|fish/; //
 let result3 = petRegex.test(petString);
 
 console.log(result3);
+
+// Ignore Case While Matching
+/*
+You can match both cases using what is called a flag. There are other flags but here you'll focus on the flag that ignores case - the i flag. You can use it by appending it to the regex. An example of using this flag is /ignorecase/i. This regex can match the strings ignorecase, igNoreCase, and IgnoreCase.
+*/
+
+let myString2 = "freeCodeCamp";
+let fccRegex = /freeCodeCamp/i; // Notice the i to ignore cases
+let result4 = fccRegex.test(myString2);

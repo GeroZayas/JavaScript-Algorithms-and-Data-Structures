@@ -32,3 +32,11 @@ let repeatRegex = /Repeat/g;
 testStr.match(repeatRegex);
 And here match returns the value ["Repeat", "Repeat", "Repeat"]
 */
+
+// Exercise
+
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /change/; // Change this line
+let result2 = twinkleStar; // Change this line
+
+console.log(result2);

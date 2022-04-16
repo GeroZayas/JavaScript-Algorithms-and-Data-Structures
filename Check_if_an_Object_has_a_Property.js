@@ -18,6 +18,8 @@ let users = {
   },
 };
 
+////////////////////////////////////////////////////////////////////////////
+
 function isEveryoneHere(userObj) {
   // NOTICE the use of [].every() here:
   return ["Alan", "Jeff", "Sarah", "Ryan"].every((elem) => elem in userObj);

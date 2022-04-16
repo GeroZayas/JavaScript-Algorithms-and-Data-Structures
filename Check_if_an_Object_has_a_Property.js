@@ -24,3 +24,17 @@ function isEveryoneHere(userObj) {
 }
 
 console.log(isEveryoneHere(users)); // true
+
+////////////////////////////////////////////////////////////////////////////
+
+// ANOTHER WAY IS TO USE obj.hasOwnProperty(elem)
+function isEveryoneHere(userObj) {
+  // NOTICE .hasOwnProperty here:
+  return ["Alan", "Jeff", "Sarah", "Ryan"].every((elem) =>
+    userObj.hasOwnProperty(elem)
+  );
+}
+
+console.log(isEveryoneHere(users)); // true
+
+////////////////////////////////////////////////////////////////////////////

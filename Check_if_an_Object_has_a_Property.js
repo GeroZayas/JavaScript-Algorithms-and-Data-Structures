@@ -19,9 +19,8 @@ let users = {
 };
 
 function isEveryoneHere(userObj) {
-  // Only change code below this line
+  // NOTICE the use of [].every() here:
   return ["Alan", "Jeff", "Sarah", "Ryan"].every((elem) => elem in userObj);
-  // Only change code above this line
 }
 
-console.log(isEveryoneHere(users));
+console.log(isEveryoneHere(users)); // true

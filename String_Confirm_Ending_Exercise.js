@@ -4,6 +4,8 @@ function confirmEnding(str, target) {
 
 console.log(confirmEnding("Bastian", "n"));
 
+// NOTICE the .slice() method
+
 var myString = "Bastian";
 var target = "n";
 var newString = myString.slice(myString.length - target.length);

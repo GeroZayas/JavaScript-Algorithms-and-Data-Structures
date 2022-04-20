@@ -8,9 +8,13 @@ function titleCase(str) {
   let finalStr = "";
   let splitStr = str.split(" ");
   for (let i = 0; i < splitStr.length; i++) {
-    finalStr += splitStr[i].toUpperCase() + " ";
+    splitStr[i] = splitStr[i].toLowerCase();
+  }
+  for (let i = 0; i < splitStr.length; i++) {
+    finalStr +=
+      splitStr[i].charAt(0).toUpperCase() + splitStr[i].slice(1) + " ";
   }
   return finalStr;
 }
 
-console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("sHoRt AnD sToUt"));

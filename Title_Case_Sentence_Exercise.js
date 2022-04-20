@@ -14,7 +14,7 @@ function titleCase(str) {
     finalStr +=
       splitStr[i].charAt(0).toUpperCase() + splitStr[i].slice(1) + " ";
   }
-  return finalStr;
+  return finalStr.trim();
 }
 
-console.log(titleCase("sHoRt AnD sToUt"));
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));

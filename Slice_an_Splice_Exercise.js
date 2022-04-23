@@ -11,8 +11,7 @@ Return the resulting array. The input arrays should remain the same after the fu
 
 */
 function frankenSplice(arr1, arr2, n) {
-  let finalArr = arr2.splice(n, 0, arr1);
-  return finalArr;
+  return arr2;
 }
 
 console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));

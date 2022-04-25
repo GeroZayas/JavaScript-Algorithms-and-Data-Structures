@@ -21,3 +21,5 @@ function bouncer(arr) {
 }
 
 console.log(bouncer([7, "ate", "", false, 9])); // [ 7, 'ate', 9 ]
+console.log(bouncer([7, "true", "", false, 0])); // [ 7, 'true' ]
+console.log(bouncer([7, "ate", "", false, 9])); // [ 7, 'ate', 9 ]

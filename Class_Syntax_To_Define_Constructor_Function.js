@@ -1,5 +1,7 @@
 class Vegetable {
+  // We declare a constructor inside our Vegetable class
   constructor(name) {
+    // Notice the "this"
     this.name = name;
   }
 }

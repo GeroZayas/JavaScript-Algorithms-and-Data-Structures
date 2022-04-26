@@ -7,9 +7,16 @@ Likewise, getIndexToIns([20,3,5], 19) should return 2 because once the array has
 */
 
 function getIndexToIns(arr, num) {
-  // this is to sort the arra from min to max
+  // this is to sort the array from min to max
   arr = arr.sort((a, b) => a - b);
-  return arr;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] >= num) {
+      return i;
+    }
+  }
+  return arr.length;
 }
 
 console.log(getIndexToIns([60, 40], 50));
+console.log(getIndexToIns([10, 20, 30, 40, 50], 35));
+console.log(getIndexToIns([10, 20, 30, 40, 50], 30));

@@ -7,6 +7,7 @@ Likewise, getIndexToIns([20,3,5], 19) should return 2 because once the array has
 */
 
 function getIndexToIns(arr, num) {
+  // this is to sort the arra from min to max
   arr = arr.sort((a, b) => a - b);
   return arr;
 }

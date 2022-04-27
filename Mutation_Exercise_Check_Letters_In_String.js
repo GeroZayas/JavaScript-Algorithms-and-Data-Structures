@@ -8,17 +8,12 @@ The arguments ["hello", "hey"] should return false because the string hello does
 Lastly, ["Alien", "line"], should return true because all of the letters in line are present in Alien.*/
 
 function mutation(arr) {
-  var result = 0;
-  for (let i = 0; i < arr[1].length; i++) {
-    if (arr[0].includes(arr[1][i])) {
-      result++;
-    }
+  let test = arr[1].toLowerCase();
+  let target = arr[0].toLowerCase();
+  for (let i = 0; i < test.length; i++) {
+    if (target.indexOf(test[i]) < 0) return false;
   }
-  console.log(result);
-  if (result <= arr[1].length) {
-    return true;
-  }
-  return false;
+  return true;
 }
 
 console.log(mutation(["hello", "hey"]));

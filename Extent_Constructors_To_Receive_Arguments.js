@@ -6,4 +6,6 @@ function Dog(name, color) {
   this.numLegs = 4;
 }
 
-let terrier = 
+let terrier = new Dog("Lolito", "brown");
+
+console.log(terrier);

@@ -3,6 +3,13 @@ function Dog() {
   this.color = "brown";
   this.numLegs = 4;
 }
-// Only change code below this line
 
 let hound = new Dog();
+
+console.log(hound);
+
+hound.color = "golden";
+hound.name = "MyPerrito";
+hound.numLegs = 3;
+
+console.log(hound);

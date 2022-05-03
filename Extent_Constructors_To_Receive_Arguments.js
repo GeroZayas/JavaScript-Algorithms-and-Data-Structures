@@ -8,4 +8,4 @@ function Dog(name, color) {
 
 let terrier = new Dog("Lolito", "brown");
 
-console.log(terrier);
+console.log(terrier); // Dog { name: 'Lolito', color: 'brown', numLegs: 4 }

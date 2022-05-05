@@ -26,4 +26,4 @@ function joinDogFraternity(candidate) {
   }
 }
 
-console.log();
+console.log(joinDogFraternity(Dog));

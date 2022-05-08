@@ -20,3 +20,6 @@ Bird.prototype = {
     console.log("My name is " + this.name); 
   }
 };*/
+
+// Exercise
+// Define the constructor property on the Dog prototype.

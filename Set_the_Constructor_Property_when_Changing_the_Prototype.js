@@ -30,6 +30,7 @@ function Dog(name) {
 
 // Only change code below this line
 Dog.prototype = {
+  constructor: Dog, // solution
   numLegs: 4,
   eat: function () {
     console.log("nom nom nom");

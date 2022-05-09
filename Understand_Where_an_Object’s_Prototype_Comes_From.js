@@ -11,3 +11,13 @@ duck inherits its prototype from the Bird constructor function. You can show thi
 
 Bird.prototype.isPrototypeOf(duck);
 This would return true.*/
+
+// Exercise
+
+function Dog(name) {
+  this.name = name;
+}
+
+let beagle = new Dog("Snoopy");
+
+// Only change code below this line

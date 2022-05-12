@@ -37,3 +37,7 @@ Bird.prototype = {
 Dog.prototype = {
   constructor: Dog
 };*/
+
+// Exercise
+
+/*The eat method is repeated in both Cat and Bear. Edit the code in the spirit of DRY by moving the eat method to the Animal supertype.*/

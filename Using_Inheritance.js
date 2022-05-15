@@ -48,9 +48,6 @@ function Cat(name) {
 
 Cat.prototype = {
   constructor: Cat,
-  eat: function () {
-    console.log("nom nom nom");
-  },
 };
 
 function Bear(name) {
@@ -59,13 +56,13 @@ function Bear(name) {
 
 Bear.prototype = {
   constructor: Bear,
-  eat: function () {
-    console.log("nom nom nom");
-  },
 };
 
 function Animal() {}
 
 Animal.prototype = {
   constructor: Animal,
+  eat: function () {
+    console.log("nom nom nom");
+  },
 };

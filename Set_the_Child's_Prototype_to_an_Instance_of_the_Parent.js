@@ -12,3 +12,7 @@ duck.eat();
 duck inherits all of Animal's properties, including the eat method.
 
 */
+
+// Exercise
+
+/*Modify the code so that instances of Dog inherit from Animal.*/

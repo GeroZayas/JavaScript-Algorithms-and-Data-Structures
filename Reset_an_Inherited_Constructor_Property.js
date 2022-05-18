@@ -13,3 +13,7 @@ But duck and all instances of Bird should show that they were constructed by Bir
 Bird.prototype.constructor = Bird;
 duck.constructor
 */
+
+// Exercise
+
+//Fix the code so duck.constructor and beagle.constructor return their respective constructors.

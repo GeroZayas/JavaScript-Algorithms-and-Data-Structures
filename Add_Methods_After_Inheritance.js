@@ -24,3 +24,7 @@ duck.fly();
 duck.eat() would display the string nom nom nom in the console, and duck.fly() would display the string I'm flying!.
 
 */
+
+// Exercise
+
+/*Add all necessary code so the Dog object inherits from Animal and the Dog's prototype constructor is set to Dog. Then add a bark() method to the Dog object so that beagle can both eat() and bark(). The bark() method should print Woof! to the console.*/

@@ -30,3 +30,6 @@ plane.fly();
 The console would display the string Flying, wooosh! twice, once for each .fly() call.
 
 Note how the mixin allows for the same fly method to be reused by unrelated objects bird and plane.*/
+
+// Exercise
+/*Create a mixin named glideMixin that defines a method named glide. Then use the glideMixin to give both bird and boat the ability to glide.*/

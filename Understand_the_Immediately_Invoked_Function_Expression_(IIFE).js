@@ -20,3 +20,7 @@ Note that the function has no name and is not stored in a variable. The two pare
 makeNest();*/
 
 // SOlution
+
+(function () {
+  console.log("A cozy nest is ready");
+})();

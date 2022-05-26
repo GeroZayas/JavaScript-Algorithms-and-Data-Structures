@@ -32,3 +32,7 @@ Note that you have an immediately invoked function expression (IIFE) that return
 
 motionModule.glideMixin(duck);
 duck.glide();*/
+
+// Exercise
+
+/*Create a module named funModule to wrap the two mixins isCuteMixin and singMixin. funModule should return an object.*/

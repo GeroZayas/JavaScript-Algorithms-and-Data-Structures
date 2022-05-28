@@ -37,5 +37,5 @@ const getTea = (numOfCups) => {
 };
 
 // Only change code below this line
-const tea4TeamFCC = null;
+const tea4TeamFCC = getTea(40); // Solution
 // Only change code above this line

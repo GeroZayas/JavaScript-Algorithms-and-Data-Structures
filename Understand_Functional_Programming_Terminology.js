@@ -13,3 +13,9 @@ Functions that can be assigned to a variable, passed into another function, or r
 The functions that take a function as an argument, or return a function as a return value are called higher order functions.
 
 When functions are passed in to or returned from another function, then those functions which were passed in or returned can be called a lambda.*/
+
+// Exercise
+
+/*Prepare 27 cups of green tea and 13 cups of black tea and store them in tea4GreenTeamFCC and tea4BlackTeamFCC variables, respectively. Note that the getTea function has been modified so it now takes a function as the first argument.
+
+Note: The data (the number of cups of tea) is supplied as the last argument. We'll discuss this more in later lessons.*/

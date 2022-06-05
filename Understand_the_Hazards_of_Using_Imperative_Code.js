@@ -42,7 +42,7 @@ Window.prototype.tabOpen = function (tab) {
 
 // When you close a tab
 Window.prototype.tabClose = function (index) {
-  // Only change code below this line
+  // this is the exercise
 
   const tabsBeforeIndex = this.tabs.splice(0, index); // Get the tabs before the tab
   const tabsAfterIndex = this.tabs.splice(1); // Get the tabs after the tab

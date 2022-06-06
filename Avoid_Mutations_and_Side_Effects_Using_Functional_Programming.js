@@ -15,3 +15,11 @@ Let's try to master this discipline and not alter any variable or object in our 
 // Exercise
 
 /*Fill in the code for the function incrementer so it returns the value of the global variable fixedValue increased by one.*/
+
+// The global variable
+let fixedValue = 4;
+
+function incrementer() {
+  // Only change code below this line
+  // Only change code above this line
+}

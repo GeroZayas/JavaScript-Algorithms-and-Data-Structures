@@ -4,10 +4,6 @@
 // FINISH THIS ONE
 // FINISH THIS ONE
 
-// FINISH THIS ONE
-// FINISH THIS ONE
-// FINISH THIS ONE
-
 /*If you haven't already figured it out, the issue in the previous challenge was with the splice call in the tabClose() function. Unfortunately, splice changes the original array it is called on, so the second call to it used a modified array, and gave unexpected results.
 
 This is a small example of a much larger pattern - you call a function on a variable, array, or an object, and the function changes the variable or something in the object.

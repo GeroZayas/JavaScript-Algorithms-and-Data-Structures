@@ -11,3 +11,11 @@ There are several good consequences from this principle. The function is easier 
 This can give you more confidence when you alter, remove, or add new code. You would know what you can or cannot change and you can see where the potential traps are.
 
 Finally, the function would always produce the same output for the same set of inputs, no matter what part of the code executes it.*/
+
+// Exercise
+
+/*Let's update the incrementer function to clearly declare its dependencies.
+
+Write the incrementer function so it takes an argument, and then returns a result after increasing the value by one.
+
+*/

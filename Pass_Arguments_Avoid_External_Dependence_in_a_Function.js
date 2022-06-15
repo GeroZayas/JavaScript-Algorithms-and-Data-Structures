@@ -3,8 +3,6 @@
 // COMPLETE THIS ONE
 // COMPLETE THIS ONE
 // COMPLETE THIS ONE
-// COMPLETE THIS ONE
-// COMPLETE THIS ONE
 
 /*The last challenge was a step closer to functional programming principles, but there is still something missing.
 

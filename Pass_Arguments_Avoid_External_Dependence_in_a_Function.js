@@ -4,6 +4,10 @@
 // COMPLETE THIS ONE
 // COMPLETE THIS ONE
 
+// COMPLETE THIS ONE
+// COMPLETE THIS ONE
+// COMPLETE THIS ONE
+
 /*The last challenge was a step closer to functional programming principles, but there is still something missing.
 
 We didn't alter the global variable value, but the function incrementer would not work without the global variable fixedValue being there.

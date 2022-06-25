@@ -4,9 +4,6 @@
 // FINISH THIS ONE
 // FINISH THIS ONE
 // FINISH THIS ONE
-// FINISH THIS ONE
-// FINISH THIS ONE// FINISH THIS ONE
-// FINISH THIS ONE
 
 /*So far, we have seen two distinct principles for functional programming:
 

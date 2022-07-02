@@ -4,7 +4,6 @@
 // FINISH THIS ONE
 // FINISH THIS ONE
 // FINISH THIS ONE// FINISH THIS ONE
-// FINISH THIS ONE// FINISH THIS ONE
 
 /*Use the map Method to Extract Data from an Array
 So far we have learned to use pure functions to avoid side effects in a program. Also, we have seen the value in having a function only depend on its input arguments.

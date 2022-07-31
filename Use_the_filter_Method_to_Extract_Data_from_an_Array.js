@@ -1,5 +1,9 @@
 //Use the filter Method to Extract Data from an Array
 
+// COMPLETE THIS ONE
+// COMPLETE THIS ONE
+// COMPLETE THIS ONE
+
 /*Another useful array function is Array.prototype.filter(), or simply filter().
 
 filter calls a function on each element of an array and returns a new array containing only the elements for which that function returns true. In other words, it filters the array, based on the function passed to it. Like map, it does this without needing to modify the original array.

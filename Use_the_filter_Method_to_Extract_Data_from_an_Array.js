@@ -3,6 +3,10 @@
 // COMPLETE THIS ONE
 // COMPLETE THIS ONE
 // COMPLETE THIS ONE
+// COMPLETE THIS ONE
+// COMPLETE THIS ONE
+// COMPLETE THIS ONE
+// COMPLETE THIS ONE
 
 /*Another useful array function is Array.prototype.filter(), or simply filter().
 

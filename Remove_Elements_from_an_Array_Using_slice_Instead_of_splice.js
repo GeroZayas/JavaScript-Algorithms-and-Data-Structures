@@ -16,7 +16,7 @@ Do not mutate the original array provided to the function.*/
 
 function nonMutatingSplice(cities) {
   // Only change code below this line
-  return cities.slice(0, 3);
+  return cities.slice(0, 3); //[ 'Chicago', 'Delhi', 'Islamabad' ]
 
   // Only change code above this line
 }

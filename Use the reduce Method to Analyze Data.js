@@ -172,16 +172,10 @@ function getRating(watchList) {
     }
   });
 
-  let nolanMoviesRatingSum = nolanMovies.reduce(function (
-    total,
-    movie,
-    currentIndex,
-    arr
-  ) {
+  let nolanMoviesRatingSum = nolanMovies.reduce((total, movie) => {
     total += parseFloat(movie.imdbRating);
     return total;
-  },
-  0);
+  }, 0);
 
   let nolanMoviesCount = nolanMovies.length;
 

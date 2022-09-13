@@ -18,11 +18,11 @@ concat offers a way to add new items to the end of an array without any mutating
 
 function nonMutatingPush(original, newItem) {
   // Only change code below this line
-  return original.push(newItem);
+  return original.concat(newItem); // solution
 
   // Only change code above this line
 }
 
 const first = [1, 2, 3];
 const second = [4, 5];
-nonMutatingPush(first, second);
+console.log(nonMutatingPush(first, second));

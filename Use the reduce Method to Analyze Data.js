@@ -179,7 +179,7 @@ function getRating(watchList) {
 
   let nolanMoviesCount = nolanMovies.length;
 
-  let averageRating = nolanMoviesRatingSum / nolanMoviesCount;
+  let averageRating = nolanMoviesRatingSum / nolanMoviesCount; // solution
 
   // Only change code above this line
   return averageRating;

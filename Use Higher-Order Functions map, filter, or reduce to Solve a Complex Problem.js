@@ -12,9 +12,13 @@ Note: Your function should not use any kind of for or while loops or the forEach
 
 const squareList = (arr) => {
   // Only change code below this line
-  return arr;
+  //We can only use map, filter or reduce here
+  return arr
+    .filter((num) => num > 0 && num % parseInt(num) === 0)
+    .map((num) => Math.pow(num, 2));
+
   // Only change code above this line
 };
 
-const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]); // [25, 9]
 console.log(squaredIntegers);

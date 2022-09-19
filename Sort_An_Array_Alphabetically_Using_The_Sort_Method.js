@@ -35,4 +35,4 @@ function alphabeticalOrder(arr) {
   // Only change code above this line
 }
 
-alphabeticalOrder(["a", "d", "c", "a", "z", "g"]);
+console.log(alphabeticalOrder(["a", "d", "c", "a", "z", "g"]));

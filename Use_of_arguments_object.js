@@ -13,6 +13,7 @@ function destroyer(arr) {
       }
     }
 
+    // removeElement === false -> !removeElement
     if (!removeElement) {
       filteredArray.push(arr[i]);
     }

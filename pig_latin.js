@@ -3,7 +3,17 @@
 // - If a word begins with a vowel, just add way at the end.
 
 function translatePigLatin(str) {
-  return str;
+  let vowels = ["a", "e", "i", "o", "u"];
+  for (let i = 0; i < str.length; i++) {
+    if (vowels.includes(str[i])) {
+      if (i === 0) {
+        return str + "way";
+      } else {
+        return str.slice(i) + str.slice(0, i) + "ay";
+      }
+    }
+  }
+  return str + "ay";
 }
 
-translatePigLatin("consonant");
+console.log(translatePigLatin("rhythm"));
